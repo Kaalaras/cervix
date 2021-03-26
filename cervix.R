@@ -1,7 +1,4 @@
-sigmoid <- function(x){
-  y <- 1/(1+exp(-x))
-  return(y)
-}
+
 
 cervix_func <- function(nchain, complete_data, incomplete_data, prop_sd){
   #les arguments data_table sont des matrix
